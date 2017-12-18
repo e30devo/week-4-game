@@ -12,18 +12,36 @@
 </head>
 <body>
 <header>Crystals Collector</header>
-<div>Instructions</div>
-<div class="randomNumber"></div>
-<div>
-    <div class="wins"></div>
-    <div class="losses"></div>
+<div class="instructions">Instructions:
+    <p>
+        You will be given a random number at the start of the game.
+        There are four crystals below. By clicking on a crystal 
+        you will add a specific amount of points to your total score.    
+        The value of each crystal is hidden from you until you 
+        click on it.
+        Each time the game starts, the game will change the values
+        of each crystal.
+    </p>
 </div>
+
+<div class="score">
+    <div>    
+        <div class="wins"></div>
+        <div class="losses"></div>
+    </div>
+    <div>
+        <div class="randomNumber"></div>
+        <span class="totalScore"></span>
+    </div>    
+</div>
+<div class="crystals">
 <span class="crystal-1 crystal"><img src= ./assets/images/crystal1.png></span>
 <span class="crystal-2 crystal"><img src= ./assets/images/crystal2.png></span>
 <span class="crystal-3 crystal"><img src= ./assets/images/crystal3.png></span>
 <span class="crystal-4 crystal"><img src= ./assets/images/crystal4.png></span>
-<span class="totalScore"></div>
+</div>
+
 
 <script src="./assets/javascript/game.js"></script>
 </body>
-</html>
+</html> 
